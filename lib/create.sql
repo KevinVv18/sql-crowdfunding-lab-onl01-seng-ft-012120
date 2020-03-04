@@ -1,6 +1,6 @@
 CREATE TABLE projects (
   project_id INT PRIMARY KEY,
-  title VARCHAR(20),
+  title text(20),
   category VARCHAR(20),
   funding_goal VARCHAR(20),
   start_date DATE,
